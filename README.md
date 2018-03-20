@@ -3,7 +3,7 @@ jquery-percentwithinviewport
 
 A handy, tiny jQuery plugin to determine how far inside the viewport your elements are. **PercentWithinViewport** is a tiny 
 (640b minified) plugin that you can call just once, or as many times within any event, to find all matching elements within 
-the viewport and simultaneously grant them a data attribute representing a percentage of far they are inside the viewport; 
+the viewport and simultaneously grant them a data attribute representing a percentage of how far they are inside the viewport; 
 and report back an array of all matching elements that are currently visible.
 
 ### Prerequisites
@@ -29,7 +29,7 @@ _element_ that's inside the viewport, rather than how much of the _viewport_ tha
 of the element is within the viewport, `$('.element').percentWithinViewport()` would result in:
 
 ```html
-<div class="element" data-percent-viewport="50">Half of me is visible. The other half is A MYSTERY.</.div>
+<div class="element" data-percent-viewport="50">Half of me is visible. The other half is A MYSTERY.</div>
 ```
 
 It will also return an array of jQuery-wrapped elements currently within the viewport (i.e. with a percentage greater 
